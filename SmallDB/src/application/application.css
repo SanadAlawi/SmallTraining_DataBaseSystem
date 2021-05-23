@@ -1,0 +1,45 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.CourseButton{
+	-fx-background-image:url("/books.jpg");
+	-fx-background-size: 500px;
+	-fx-background-repeat: no-repeat;
+}
+.CourseButton:hover{
+	-fx-opacity: 0.1;
+	-fx-text-fill: black;
+	-fx-font-size: 50px;
+	-fx-font-family: sans-serfs;
+}
+
+.Student_CourseButton{
+	-fx-background-image:url("/register.jpg");
+	-fx-background-size: 500px;
+	-fx-background-repeat: no-repeat;
+}
+.Student_CourseButton:hover{
+	-fx-text-fill: black;
+	-fx-font-size: 50px;
+	-fx-font-family: sans-serfs;
+}
+
+.StudentButton{
+	-fx-background-image:url("/student.png");
+	-fx-background-size: 500px;
+	-fx-background-repeat: no-repeat;
+}
+.StudentButton:hover{
+	-fx-text-fill: black;
+	-fx-font-size: 50px;
+	-fx-font-family: sans-serfs;
+}
+
+.TrainerButton{
+	-fx-background-image:url("/trainer.jpg");
+	-fx-background-size: 500px;
+	-fx-background-repeat: no-repeat;
+}
+.TrainerButton:hover{
+	-fx-text-fill: black;
+	-fx-font-size: 50px;
+	-fx-font-family: sans-serfs;
+}
